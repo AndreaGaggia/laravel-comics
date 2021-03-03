@@ -1,0 +1,30 @@
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-nav li {
+    width: 180px;
+    height: 40px;
+    transform: skew(-20deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    align-self: stretch;
+    height: 100%;
+}
+
+nav li {
+    margin: 0 0.5rem;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-bottom: 4px solid transparent;
+}
+
+nav li:nth-child(2) {
+    border-bottom: 4px solid blue;
+}

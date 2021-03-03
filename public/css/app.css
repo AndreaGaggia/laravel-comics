@@ -1,11 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;
 
-/*!
- * Bootstrap v4.6.0 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+700&display=swap);@charset "UTF-8";
 
 :root {
   --blue: #3490dc;
@@ -10942,5 +10937,50 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  color: #fff;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-nav li {
+  width: 180px;
+  height: 40px;
+  transform: skew(-20deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  align-self: stretch;
+  height: 100%;
+}
+
+nav li {
+  margin: 0 0.5rem;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  border-bottom: 4px solid transparent;
+}
+
+nav li:nth-child(2) {
+  border-bottom: 4px solid blue;
 }
 
