@@ -1,6 +1,7 @@
 .top-nav {
     display: flex;
     justify-content: flex-end;
+    background-color: $dc_blue;
 }
 
 .top-nav li {
@@ -26,5 +27,5 @@ nav li {
 }
 
 nav li:nth-child(2) {
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid $dc_blue;
 }

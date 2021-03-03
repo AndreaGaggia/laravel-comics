@@ -10956,6 +10956,7 @@ ul {
 .top-nav {
   display: flex;
   justify-content: flex-end;
+  background-color: #0282f9;
 }
 
 .top-nav li {
@@ -10981,6 +10982,62 @@ nav li {
 }
 
 nav li:nth-child(2) {
-  border-bottom: 4px solid blue;
+  border-bottom: 4px solid #0282f9;
+}
+
+footer .top-footer {
+  background-color: #0282f9;
+}
+
+footer .top-footer .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .bottom-footer {
+  background-color: #303030;
+}
+
+footer .bottom-footer a.sign-up {
+  color: #fff;
+  border: 1px solid #0282f9;
+  padding: 0.5rem 1rem;
+  transition: 0.3s;
+}
+
+footer .bottom-footer a.sign-up:hover {
+  background-color: #0282f9;
+  text-decoration: none;
+}
+
+footer .bottom-footer span.follow {
+  color: #0282f9;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+footer .bottom-footer .social {
+  display: flex;
+}
+
+footer .bottom-footer .social a {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #686868;
+  transition: 0.2s;
+}
+
+footer .bottom-footer .social a:hover {
+  background-color: #68686842;
+  text-decoration: none;
+  color: initial;
+}
+
+footer .bottom-footer .social a:not(:last-child) {
+  margin-right: 0.5rem;
 }
 

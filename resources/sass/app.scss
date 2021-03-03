@@ -8,5 +8,62 @@
 @import "~bootstrap/scss/bootstrap";
 
 // my scss
+@import "my_vars";
 @import "common";
 @import "nav";
+
+footer {
+    .top-footer {
+        background-color: $dc_blue;
+
+        .wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .bottom-footer {
+        background-color: #303030;
+
+        a.sign-up {
+            color: #fff;
+            border: 1px solid $dc_blue;
+            padding: 0.5rem 1rem;
+            transition: 0.3s;
+            &:hover {
+                background-color: $dc_blue;
+                text-decoration: none;
+            }
+        }
+
+        span.follow {
+            color: $dc_blue;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        .social {
+            display: flex;
+
+            a {
+                display: grid;
+                place-items: center;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background-color: #686868;
+                transition: 0.2s;
+                &:hover {
+                    background-color: #68686842;
+                    text-decoration: none;
+                    color: initial;
+                }
+            }
+
+            a:not(:last-child) {
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}
