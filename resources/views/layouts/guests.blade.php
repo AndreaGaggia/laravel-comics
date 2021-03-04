@@ -63,20 +63,23 @@
             <div class="container">
                 <div class="wrap p-4">
                     <a href="#">
-                        <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-bar-DCUI.svg">
+                        <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-bar-DCUI.svg"
+                            height="55">
                         DIGITAL COMICS
                     </a>
                     <a href="#">
-                        <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-bar-DCshop.svg">
+                        <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-bar-DCshop.svg"
+                            height="55">
                         DC MERCHANDISE
                     </a>
                     <a href="#">
-                        <img
-                            src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-bar-subscription.svg">
+                        <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-bar-subscription.svg"
+                            height="55">
                         PRINT SUBSCRIPTIONS
                     </a>
                     <a href="#">
-                        <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-bar-locator.svg">
+                        <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/buy-bar-locator.svg"
+                            height="55">
                         COMIC SHOP LOCATOR
                     </a>
                 </div>

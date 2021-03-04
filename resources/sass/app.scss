@@ -98,6 +98,10 @@ div.specs {
     padding: 1rem 0;
     margin-right: 1rem;
 
+    h3 {
+        font-weight: 700;
+    }
+
     td:first-child {
         padding-left: 0;
         color: $dc_dark_blue;

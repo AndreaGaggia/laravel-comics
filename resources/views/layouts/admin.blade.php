@@ -63,9 +63,8 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                        onclick="event.preventDefault();
-                                                                             document.getElementById('logout-form').submit();">
+                                    <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                            document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -87,6 +86,8 @@
                         <a href="{{ route('admin.comics.index') }}">Comics</a>
                         <a href="{{ route('admin.writers.index') }}">Writers</a>
                         <a href="{{ route('admin.illustrators.index') }}">Illustrators</a>
+                        <a href="{{ route('admin.articles.index') }}">Articles</a>
+                        <a href="{{ route('admin.series.index') }}">Series</a>
                     </div>
                     <div class="col-md-10">
                         @yield('content')

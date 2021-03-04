@@ -27,4 +27,6 @@ Route::middleware('auth')->prefix('admin')->name('admin.')->group(function () {
     Route::resource('comics', 'ComicController');
     Route::resource('writers', 'WriterController');
     Route::resource('illustrators', 'IllustratorController');
+    Route::resource('articles', 'ArticleController');
+    Route::resource('series', 'SerieController');
 });

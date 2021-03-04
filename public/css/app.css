@@ -11140,6 +11140,10 @@ div.specs {
   margin-right: 1rem;
 }
 
+div.specs h3 {
+  font-weight: 700;
+}
+
 div.specs td:first-child {
   padding-left: 0;
   color: #003f5e;
