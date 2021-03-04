@@ -11,3 +11,13 @@ ul {
     list-style-type: none;
     color: #fff;
 }
+
+a.show:hover {
+    color: $dc_blue;
+}
+a.edit:hover {
+    color: yellow;
+}
+a.delete:hover {
+    color: red;
+}

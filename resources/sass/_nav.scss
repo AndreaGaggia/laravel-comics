@@ -2,15 +2,19 @@
     display: flex;
     justify-content: flex-end;
     background-color: $dc_blue;
-}
 
-.top-nav li {
-    width: 180px;
-    height: 40px;
-    transform: skew(-20deg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    li {
+        width: 180px;
+        height: 40px;
+        transform: skew(-20deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            transform: skew(20deg);
+        }
+    }
 }
 
 nav ul {
@@ -23,9 +27,8 @@ nav li {
     height: 100%;
     display: grid;
     place-items: center;
-    border-bottom: 4px solid transparent;
 }
 
-nav li:nth-child(2) {
-    border-bottom: 4px solid $dc_blue;
-}
+// nav li:nth-child(2) {
+//     border-bottom: 4px solid $dc_blue;
+// }

@@ -20,16 +20,23 @@
             </a>
         </li>
         <li>
-            <a href="#">
-                Admin
-            </a>
+            @if (Route::has('login'))
+                @auth
+                    <a href="{{ url('/admin') }}">ADMIN</a>
+                @else
+                    <a href="{{ route('login') }}">LOGIN</a>
+                @endauth
+            @endif
+            {{-- <a href="#">
+                    Admin
+                </a> --}}
         </li>
     </ul>
 
     <nav>
         <div class="container">
             <div class="row">
-                <div class="col-md-10 mx-auto px-2 d-flex justify-content-between align-items-center">
+                <div class="col-md-12 mx-auto px-2 d-flex justify-content-between align-items-center">
                     <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/logo.png" height="81">
                     <ul class="text-dark d-flex font-weight-bold align-items-center justify-content-between">
                         <li><a href="#">CHARACTERS</a></li>
@@ -51,7 +58,7 @@
         @yield('main')
     </main>
 
-    <footer style="background-image: url({{ asset('img/footer-bg.jpg') }})">
+    <footer style="background-image: url({{ asset('img/footer-bg.jpg') }}); background-size: cover">
         <div class="top-footer text-light">
             <div class="container">
                 <div class="wrap p-4">
