@@ -23,8 +23,8 @@
             <div class="row">
                 <div class="comic-cards d-flex">
                     @foreach ($comics as $comic)
-                        <div class="d-flex flex-column">
-                            <a href="{{ route('guest_show', ['comic' => $comic->id]) }}" class="comic-card m-1 mb-2">
+                        <div class="d-flex flex-column p-2">
+                            <a href="{{ route('guest_show', ['comic' => $comic->id]) }}" class="comic-card mb-2">
                                 <span class="cover-badge">COMIC BOOK</span>
                                 <img src="{{ asset('storage/' . $comic->cover) }}" alt="">
                             </a>

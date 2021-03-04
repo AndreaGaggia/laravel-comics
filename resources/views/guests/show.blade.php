@@ -47,16 +47,18 @@
                                 <tr>
                                     <td>Art by:</td>
                                     <td>
-                                        @foreach ($comic->illustrators as $illustrator)
-                                            <span class="linkable">{{ $illustrator->name }}</span>
+                                        @foreach ($comic->illustrators as $key => $illustrator)
+                                            <a href="#"
+                                                class="linkable">{{ $illustrator->name }}</a>{{ $key != count($comic->illustrators) - 1 ? ',' : '' }}
                                         @endforeach
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Written by:</td>
                                     <td>
-                                        @foreach ($comic->writers as $writer)
-                                            <span class="linkable">{{ $writer->name }}</span>
+                                        @foreach ($comic->writers as $key => $writer)
+                                            <a href="#"
+                                                class="linkable">{{ $writer->name }}</a>{{ $key != count($comic->writers) - 1 ? ',' : '' }}
                                         @endforeach
                                     </td>
                                 </tr>
@@ -72,7 +74,8 @@
                                         Series:
                                     </td>
                                     <td class="linkable">
-                                        {{ $comic->title }} {{ date('Y', strtotime($comic->on_sale_date)) }}
+                                        {{ $comic->title }}
+                                        {{ date('Y', strtotime($comic->on_sale_date)) }}
                                     </td>
                                 </tr>
                                 <tr>
