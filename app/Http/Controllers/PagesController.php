@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Article;
 use App\Comic;
+use App\Serie;
 
 class PagesController extends Controller
 {
@@ -11,7 +12,8 @@ class PagesController extends Controller
     {
         $comics = Comic::all();
         $articles = Article::all();
-        return view('guests.index', compact('comics', 'articles'));
+        $series = Serie::all();
+        return view('guests.index', compact('comics', 'articles', 'series'));
     }
 
     public function show(Comic $comic)

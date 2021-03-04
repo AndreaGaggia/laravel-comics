@@ -1,0 +1,28 @@
+section.series {
+    background-color: $dc_dark;
+
+    .container {
+        position: relative;
+
+        .thumbs {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            column-gap: 20px;
+            row-gap: 40px;
+            margin: 50px 0;
+
+            .thumb {
+                img {
+                    width: 100%;
+                }
+
+                p {
+                    line-height: 1.2;
+                    font-size: 0.8rem;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

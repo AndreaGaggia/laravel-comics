@@ -56,6 +56,22 @@
                 </div>
             </div>
         </div>
-
+    </section>
+    <section class="series">
+        <div class="container">
+            <div class="row">
+                <span class="section-badge">
+                    CURRENT SERIES
+                </span>
+                <div class="thumbs">
+                    @foreach ($series as $serie)
+                        <div class="thumb">
+                            <img src="{{ asset('storage/' . $serie->cover) }}">
+                            <p class="text-white mt-3 mb-0">{{ $serie->title }}</p>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
     </section>
 @endsection

@@ -11083,6 +11083,34 @@ section.articles .cards p.subtitle {
   line-height: 1.2;
 }
 
+section.series {
+  background-color: #1c1c1c;
+}
+
+section.series .container {
+  position: relative;
+}
+
+section.series .container .thumbs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 40px;
+  margin: 50px 0;
+}
+
+section.series .container .thumbs .thumb img {
+  width: 100%;
+}
+
+section.series .container .thumbs .thumb p {
+  line-height: 1.2;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
 div.carousel {
   background-color: #1c1c1c;
 }
