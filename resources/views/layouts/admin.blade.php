@@ -64,7 +64,7 @@
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                            document.getElementById('logout-form').submit();">
+                                                            document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
 
@@ -83,11 +83,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2 d-flex flex-column">
-                        <a href="{{ route('admin.comics.index') }}">Comics</a>
-                        <a href="{{ route('admin.writers.index') }}">Writers</a>
-                        <a href="{{ route('admin.illustrators.index') }}">Illustrators</a>
-                        <a href="{{ route('admin.articles.index') }}">Articles</a>
-                        <a href="{{ route('admin.series.index') }}">Series</a>
+                        <a href="{{ route('admin.comics.index') }}"
+                            style="{{ Route::is('admin.comics.*') ? 'color:red' : '' }}">Comics</a>
+                        <a href="{{ route('admin.writers.index') }}"
+                            style="{{ Route::is('admin.writers.*') ? 'color:red' : '' }}">Writers</a>
+                        <a href="{{ route('admin.illustrators.index') }}"
+                            style="{{ Route::is('admin.illustrators.*') ? 'color:red' : '' }}">Illustrators</a>
+                        <a href="{{ route('admin.articles.index') }}"
+                            style="{{ Route::is('admin.articles.*') ? 'color:red' : '' }}">Articles</a>
+                        <a href="{{ route('admin.series.index') }}"
+                            style="{{ Route::is('admin.series.*') ? 'color:red' : '' }}">Series</a>
                     </div>
                     <div class="col-md-10">
                         @yield('content')
