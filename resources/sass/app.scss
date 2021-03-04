@@ -12,6 +12,7 @@
 @import "common";
 @import "nav";
 @import "footer";
+@import "articles";
 
 div.carousel {
     background-color: $dc_dark;
@@ -73,12 +74,16 @@ span.cover-badge {
 }
 
 .bg-section {
-    height: 400px;
+    height: 500px;
     border-bottom: 50px solid $dc_blue;
 }
 
 .core-info {
     position: relative;
+
+    h2 {
+        color: $dc_dark_blue;
+    }
 }
 
 div.comic-card {

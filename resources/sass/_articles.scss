@@ -1,0 +1,33 @@
+section.articles {
+    h2 {
+        font-weight: 700;
+        color: $dc_blue;
+    }
+    .cards {
+        p {
+            margin: 0;
+
+            &.supertitle {
+                color: $dc_blue;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin-top: 0.5rem;
+                line-height: 1.2;
+            }
+
+            &.title {
+                color: $dc_dark;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 1.4rem;
+                line-height: 1.4;
+            }
+
+            &.subtitle {
+                color: $dc_grey_text;
+                font-size: 0.8rem;
+                line-height: 1.2;
+            }
+        }
+    }
+}

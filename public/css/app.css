@@ -11052,6 +11052,37 @@ footer .bottom-footer .social a:not(:last-child) {
   margin-right: 0.5rem;
 }
 
+section.articles h2 {
+  font-weight: 700;
+  color: #0282f9;
+}
+
+section.articles .cards p {
+  margin: 0;
+}
+
+section.articles .cards p.supertitle {
+  color: #0282f9;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  line-height: 1.2;
+}
+
+section.articles .cards p.title {
+  color: #1c1c1c;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+section.articles .cards p.subtitle {
+  color: #8d8d8d;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
 div.carousel {
   background-color: #1c1c1c;
 }
@@ -11114,12 +11145,16 @@ span.cover-badge {
 }
 
 .bg-section {
-  height: 400px;
+  height: 500px;
   border-bottom: 50px solid #0282f9;
 }
 
 .core-info {
   position: relative;
+}
+
+.core-info h2 {
+  color: #003f5e;
 }
 
 div.comic-card {

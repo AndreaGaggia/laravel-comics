@@ -40,4 +40,22 @@
             </div>
         </div>
     </div>
+    <section class="articles py-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="mb-3 pl-5">MUST READS</h2>
+                <div class="cards d-flex">
+                    @foreach ($articles as $article)
+                        <div class="w-25 m-2">
+                            <img src="{{ asset('storage/' . $article->cover) }}" class="w-100">
+                            <p class="supertitle">{{ $article->super_title }}</p>
+                            <p class="title">{{ $article->title }}</p>
+                            <p class="subtitle">{{ $article->sub_title }}</p>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+
+    </section>
 @endsection
