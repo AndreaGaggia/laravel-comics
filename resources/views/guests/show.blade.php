@@ -1,6 +1,7 @@
 @extends('layouts.guests')
 
 @section('main')
+    <hr class="mb-0">
     <div class="bg-section" style="background-image: url({{ asset('storage/' . $comic->bg_img) }})"></div>
     <div class="container">
         <div class="row">

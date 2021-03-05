@@ -40,7 +40,9 @@
                     <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/logo.png" height="81">
                     <ul class="text-dark d-flex font-weight-bold align-items-center justify-content-between">
                         <li><a href="#">CHARACTERS</a></li>
-                        <li><a href="#">COMICS</a></li>
+                        <li><a href="#">COMICS</a>
+                            <div class="active"></div>
+                        </li>
                         <li><a href="#">MOVIES</a></li>
                         <li><a href="#">TV</a></li>
                         <li><a href="#">GAMES</a></li>
