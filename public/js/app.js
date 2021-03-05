@@ -37392,6 +37392,12 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+TweenMax.fromTo(".bg-section", 1, {
+  opacity: 0
+}, {
+  opacity: 1
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

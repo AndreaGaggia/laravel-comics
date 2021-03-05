@@ -135,3 +135,7 @@
         </div>
     </section>
 @endsection
+
+@section('script')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+@endsection
