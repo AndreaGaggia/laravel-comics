@@ -5,7 +5,7 @@
     <div class="carousel mt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="carousel-top d-flex justify-content-end align-items-start">
+                <div class="carousel-top d-flex justify-content-end">
                     <span class="section-badge">
                         COMICS AND GRAFIC NOVELS
                     </span>

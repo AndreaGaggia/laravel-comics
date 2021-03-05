@@ -15,8 +15,23 @@
 <body>
     <ul class="top-nav">
         <li class="bg-white">
-            <a href="#">
+            <a href="{{ route('guest_home') }}">
                 <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/DC_desktop_blue.svg">
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('guest_home') }}">
+                <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/DCUI_desktop.svg" height="26">
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('guest_home') }}">
+                <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/DCUI_desktop.svg" height="26">
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('guest_home') }}">
+                <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/DCUI_desktop.svg" height="26">
             </a>
         </li>
         <li>
@@ -37,7 +52,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mx-auto px-2 d-flex justify-content-between align-items-center">
-                    <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/logo.png" height="81">
+                    <a href="{{ route('guest_home') }}">
+                        <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/logo.png" height="81">
+                    </a>
                     <ul class="text-dark d-flex font-weight-bold align-items-center justify-content-between">
                         <li><a href="#">CHARACTERS</a></li>
                         <li><a href="#">COMICS</a>

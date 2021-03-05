@@ -16,7 +16,7 @@
                     <td>{{ $comic->id }}</td>
                     <td>{{ $comic->title }}</td>
                     <td class="d-flex justify-content-around">
-                        <a href="#" class="show">Show</a>
+                        <a href="/comics/{{ $comic->id }}" class="show">Show</a>
                         <a href="#" class="edit">Edit</a>
                         <a href="#" class="delete">Delete</a>
                     </td>
