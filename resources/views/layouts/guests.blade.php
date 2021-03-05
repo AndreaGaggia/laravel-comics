@@ -26,12 +26,13 @@
         </li>
         <li>
             <a href="{{ route('guest_home') }}">
-                <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/DCUI_desktop.svg" height="26">
+                <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/DC_SHOP_desktop.svg"
+                    height="26">
             </a>
         </li>
         <li>
             <a href="{{ route('guest_home') }}">
-                <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/DCUI_desktop.svg" height="26">
+                <img src="https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/DC_community.svg" height="26">
             </a>
         </li>
         <li>

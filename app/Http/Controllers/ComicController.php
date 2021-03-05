@@ -76,7 +76,7 @@ class ComicController extends Controller
      */
     public function show(Comic $comic)
     {
-        //
+        //rimando a public show view
     }
 
     /**
@@ -87,7 +87,9 @@ class ComicController extends Controller
      */
     public function edit(Comic $comic)
     {
-        //
+        $writers = Writer::all();
+        $illustrators = Illustrator::all();
+        return view('admin.comics.edit', compact('comic', 'writers', 'illustrators'));
     }
 
     /**
@@ -99,7 +101,32 @@ class ComicController extends Controller
      */
     public function update(Request $request, Comic $comic)
     {
-        //
+        $validated = $request->validate([
+            'title' => 'required',
+            'description' => 'required',
+            'price' => 'required',
+            'on_sale_date' => 'required',
+            'issue' => 'required',
+            'writers' => 'required|exists:writers,id',
+            'illustrators' => 'required|exists:illustrators,id',
+        ]);
+
+        if ($request->cover) {
+            //dd('ciao');
+            $cover = Storage::put('comic_imgs', $request->cover);
+            $validated['cover'] = $cover;
+        }
+
+        if ($request->bg_img) {
+            $bg_img = Storage::put('comic_imgs', $request->bg_img);
+            $validated['bg_img'] = $bg_img;
+        }
+
+        $comic->update($validated);
+        $comic->illustrators()->sync($request->illustrators);
+        $comic->writers()->sync($request->writers);
+
+        return redirect()->route('admin.comics.index');
     }
 
     /**
@@ -110,6 +137,7 @@ class ComicController extends Controller
      */
     public function destroy(Comic $comic)
     {
-        //
+        $comic->delete();
+        return redirect()->route('admin.comics.index');
     }
 }

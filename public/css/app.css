@@ -11281,6 +11281,8 @@ div.comic-card {
 section.spec {
   background-color: #f6f6f6;
   color: #003f5e;
+  padding-bottom: 80px;
+  padding-top: 30px;
 }
 
 div.specs {
