@@ -50,7 +50,10 @@
                         <li><a href="#">NEWS</a></li>
                         <li><a href="#">SHOP</a></li>
                     </ul>
-                    <input type="search" name="" id="" value="Search">
+                    <div class="input">
+                        <input type="search" name="" id="" placeholder="Search">
+                        <span><i class="fas fa-search"></i></span>
+                    </div>
                 </div>
             </div>
         </div>
