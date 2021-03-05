@@ -94,41 +94,40 @@
                         <div class="menus d-flex justify-content-start">
                             <ul class="p-0">
                                 <li class="title">DC COMICS</li>
+                                <li><a href="#">Characters</a></li>
                                 <li><a href="#">Comics</a></li>
-                                <li><a href="#">Comics</a></li>
-                                <li><a href="#">Comics</a></li>
-                                <li><a href="#">Comics</a></li>
-                                <li><a href="#">Comics</a></li>
-                                <li><a href="#">Comics</a></li>
-                                <li><a href="#">Comics</a></li>
+                                <li><a href="#">Movies</a></li>
+                                <li><a href="#">TV</a></li>
+                                <li><a href="#">Games</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">News</a></li>
                                 {{-- menu shop --}}
-                                <li class="title"><a href="#">SHOP</a></li>
+                                <li class="title shop"><a href="#">SHOP</a></li>
                                 <li><a href="#">Shop DC</a></li>
                                 <li><a href="#">Shop DC Collectibles</a></li>
                             </ul>
                             <ul>
                                 <li class="title">DC</li>
-                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Terms Of Use</a></li>
+                                <li><a href="#">Privacy Policy (New)</a></li>
+                                <li><a href="#">Advertising</a></li>
                                 <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Subscriptions</a></li>
+                                <li><a href="#">CPSC Certificates</a></li>
+                                <li><a href="#">Ratings</a></li>
+                                <li><a href="#">Shop Help</a></li>
+                                <li><a href="#">Contact Us</a></li>
                             </ul>
                             <ul>
                                 <li class="title">SITES</li>
                                 <li><a href="#">DC</a></li>
+                                <li><a href="#">DC UNIVERSE INFINITE</a></li>
+                                <li><a href="#">DC Kids</a></li>
+                                <li><a href="#">DC Shop</a></li>
                                 <li><a href="#">MAD Magazine</a></li>
-                                <li><a href="#">DC Kids</a></li>
-                                <li><a href="#">DC Kids</a></li>
-                                <li><a href="#">DC Kids</a></li>
                             </ul>
                         </div>
-                        <p class="text-light mb-0">
+                        <p class="mb-0">
                             All Site Content TM and © 2020 DC Entertainment, unless otherwise <a href="#">noted
                                 here</a>. All rights
                             reserved. <a href="#">Cookie Settings</a>

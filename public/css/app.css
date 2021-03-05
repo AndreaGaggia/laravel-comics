@@ -11017,6 +11017,30 @@ footer .top-footer .wrap {
   align-items: center;
 }
 
+footer .top-footer .wrap a {
+  font-size: 0.8rem;
+}
+
+footer .central-footer .title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+footer .central-footer .title.shop {
+  margin-top: 1rem;
+}
+
+footer .central-footer li:not(li.title),
+footer .central-footer p {
+  color: #8d8d8d;
+  font-size: 0.8rem;
+}
+
+footer .central-footer p a {
+  color: #0282f9;
+}
+
 footer .bottom-footer {
   background-color: #303030;
 }
